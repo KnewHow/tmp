@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test2</title>
+	<style type="text/css">
+		div{
+			padding: 0px;
+			margin: 0px;
+		}
+		#all{
+			height: 500px;
+			border: 2px bold blue;
+			background: yellow;
+		}
+
+		#pic{
+			position: relative;
+			width: 250px;
+			height: 250px;
+			background: red;
+		}
+		#code{
+			position: absolute;
+			height: 200px;
+			width: 500px;
+			background: green;
+			top: 8px;
+			left: 250px;
+		}
+	</style>
+</head>
+<body>
+	<div id="all">
+		<div id="pic">
+			
+		</div>
+
+		<div id="code">
+			sdkjkdjksd skd sk sd sdksjdksdk dksdks dksd ksd ks
+			sdksdjksd skdjsd ksd ks dksndkjsjd skd kjsd kjsndks
+			skjdksdjks  skd ksd  skdn sk dksdnksdnks dkjsdnksd ks
+			kdsdjskdksd
+		</div>
+	</div>
+</body>
+</html>

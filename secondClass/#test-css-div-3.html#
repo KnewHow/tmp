@@ -1,0 +1,41 @@
+XXXXXXXXXXXXXXXXXXS<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		#div1{
+			background: red;
+		}
+
+		#div2{
+			/*float: left;*/
+			background: yellow
+		}
+
+		#div21{
+			float: left;
+			background: red;
+		}
+		#div22{
+			background: blue;
+			margin-left: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div id="div1">
+			<span>111</span>
+			<span>222</span>
+		</div>
+		<div id="div2">
+			<div id="div21">
+				<div id="div211">div211</div>
+				<div id="div212">div212</div>
+			</div>
+			<div id="div22">div22</div>
+		</div>
+	</div>
+
+</body>
+</html>
