@@ -1,0 +1,246 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>豆瓣</title>
+	<link rel="shortcut icon" href="pic/logo.ico" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="doubanIndex.css">
+</head>
+<body>
+	<div class="clearfix" id="firstline">
+			<!--首行的LOGO -->
+			<div id="logoPF">
+				<h1>
+					<!-- <img id="logo-img"  src="pic/one/doubanIndex.png">	 -->
+					<a href="#">douban</a>
+				</h1>
+			</div>
+			<!-- 搜索框 -->
+			<div id="searchBox">
+				<form action="https://www.douban.com/search" method="get">
+					<span>
+						<input id="search-input" type="text" name="searchKeyWords" placeholder="书籍、电影、音乐、小组、成员">		
+					</span>
+
+					<span class="bn">
+						<input type="submit" value="search">
+					</span>
+					
+				</form>
+			</div>
+			<!-- 搜索按钮-->
+			<!-- <div id="search-button">
+				<a href="#">
+					<img id="search-button-img" 
+					src="pic/one/searchButton.png">
+				</a>
+			</div> -->
+
+			<!-- 热门主题-->
+			<div id="hot-title">
+				<ul>
+					<li class="hot-type-li">
+						<a href="#" class="hot-type">豆瓣读书</a>
+					</li>
+					<li class="hot-type-li">
+						<a href="#" class="hot-type">豆瓣电影</a>
+					</li>
+					<li class="hot-type-li">
+						<a href="#" class="hot-type">豆瓣音乐</a>
+					</li>
+					<li class="hot-type-li">
+						<a href="#" class="hot-type">豆瓣小组</a>
+					</li>
+					<li class="hot-type-li">
+						<a href="#" class="hot-type">豆瓣同城</a>
+					</li>
+					<li class="hot-type-li">
+						<a href="#" class="hot-type">豆瓣FM</a>
+					</li>
+					<li class="hot-type-li">
+						<a href="#" class="hot-type">豆瓣时间</a>
+					</li>
+					<li class="hot-type-li">
+						<a href="#" class="hot-type">豆瓣市集</a>
+					</li>
+				</ul>
+			</div>
+	</div>
+
+	<!-- 显示手机端-->
+	<div class="clearfix" id="user">
+		<!-- <div id="show-mobile">
+			<img id="show-mobile-bk" src="pic/two/background.png">
+		</div> -->
+		<div class="center clearfix">
+			<div id="show-mobile-content">
+				<img id="show-mobile-img" src="pic/two/mobile-show.png">
+			</div>
+			<div id="app-content">
+				<p>
+					豆瓣 5.0
+				</p>
+				<p>
+					我们的精神角落
+				</p>
+				<a href="">下载豆瓣App</a>
+				<div id="icon-qrcode-green-content">
+					<img id="icon-qrcode-green-img" src="pic/two/icon_qrcode_green.png">
+				</div>
+			</div>
+
+			<div id="login-div">
+				<form>
+					<div id="info-div">
+						<input class="login-input" id="info-input" type="text" name="moblie_or_mail" placeholder="邮箱/手机号">
+					</div>
+					<div id="password-div">
+						<input class="login-input" id="password-input" type="password" name="password" placeholder="密码">
+					</div>
+					<div id="password-help">
+						<a href="#" id="help-link" >帮助</a>
+					</div>
+					<div id="login-button-div">
+						<input type="submit" value="登录豆瓣">
+					</div>
+
+					<div id="regist-button-div">
+						<a href="#">注册账号</a>
+					</div>
+					<div id="remember-div">
+						<input type="checkbox" name="isRemember" value="1"> 记住我
+					</div>
+				</form>
+					<div id="other-login-way">
+						<ul>
+							<li>
+								<a href="#">微信登录</a>
+							</li>
+
+							<li>
+								<a href="#">微博登录</a>
+							</li>
+						</ul>
+					</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- 中间广告 -->
+	<div class ="advertisement clearfix">
+		<div class ="advertisement-img">
+			<img src="pic/two/advertisement-1.jpg">
+		</div>
+		<div class ="advertisement-watermark">
+			广告
+		</div>
+	</div>
+
+	<!-- 热点内容 -->
+	<div id="hot-content" class="clearfix">
+		<div id="hot-content-title">
+			热点内容 · · · · · · ( <a href="#" style="font-size: 15px;">更多</a> )
+		</div>
+
+		<div id="hot-content-left-1">
+			<ul>
+				<li>
+					<div>
+						<img src="pic/hotContent/hot-content-left-1.webp">
+						<div>
+							<span class="hot-content-discribe">
+								<a class="hot-content-discribe-link"  href="#">我妈摄影作品精选 </a> 42张照片
+							</span>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div>
+						<img src="pic/hotContent/hot-content-left-3.webp">
+						<div>
+							<span class="hot-content-discribe">
+								<a class="hot-content-discribe-link" href="#">姑苏秋意 </a> 79张照片
+							</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div id="hot-content-left-2">
+			<ul>
+				<li>
+					<div>
+						<img src="pic/hotContent/hot-content-left-2.webp">
+						<div>
+							<span class="hot-content-discribe">
+								<a class="hot-content-discribe-link"  href="#">林芝有雨 </a> 56张照片
+							</span>
+						</div>
+					</div>
+				</li>
+
+				<li>
+					<div>
+						<img src="pic/hotContent/hot-content-left-4.webp">
+						<div>
+							<span class="hot-content-discribe">
+								<a class="hot-content-discribe-link" href="#">十二时辰 
+								</a> 12张照片
+							</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="hot-content-middle">
+			<div id="first-topic">
+				<div class="">
+					<a class="hot-content-discribe hot-content-discribe-link" href="#">呀，你怎么哭了呀</a>
+				</div>
+				<div class="hot-content-middle-content">
+					肖尔布拉克的日记
+					<br>
+					我看到他在我面前哭的时候我们俩都已经喝多了，
+					<br>
+					醉眼朦胧中看到他流眼泪我还以为是...
+				</div>
+			</div>
+
+			<div class="other-topic">
+				<div class="">
+					<a class="hot-content-discribe hot-content-discribe-link" href="#">对话《彗星来的那一夜》导演: 黑暗不在头顶，而在心中</a>
+				</div>
+			</div>
+
+			<div class="other-topic">
+				<div class="">
+					<a class="hot-content-discribe hot-content-discribe-link" href="#">对话《彗星来的那一夜》导演: 黑暗不在头顶，而在心中</a>
+				</div>
+			</div>
+
+			<div class="other-topic">
+				<div class="">
+					<a class="hot-content-discribe hot-content-discribe-link" href="#">对话《彗星来的那一夜》导演: 黑暗不在头顶，而在心中</a>
+				</div>
+			</div>
+
+			<div class="other-topic">
+				<div class="">
+					<a class="hot-content-discribe hot-content-discribe-link" href="#">对话《彗星来的那一夜》导演: 黑暗不在头顶，而在心中</a>
+				</div>
+			</div>
+
+			<div class="other-topic">
+				<div class="">
+					<a class="hot-content-discribe hot-content-discribe-link" href="#">对话《彗星来的那一夜》导演: 黑暗不在头顶，而在心中</a>
+				</div>
+			</div>
+		</div>
+
+		<div>
+			
+		</div>
+	</div>
+</body>
+</html>
