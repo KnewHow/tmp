@@ -1,0 +1,114 @@
+#content {
+    margin: $global-content-margin;
+    width: 90%;
+	max-width: $global-body-width;
+}
+
+#primary.home {
+    width: 73%;
+    float: right;
+}
+
+#primary {
+    max-width: 850px;
+    margin: $global-content-margin;
+}
+
+#primary.home .js-author {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  opacity: 0; }
+
+#primary.home .post:hover .js-author {
+  opacity: 1;
+  transition: all 1s;}
+
+#primary.home .js-author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid #eee; }
+
+article.post .post-time {
+  display: inline-block; }
+
+article.post .author-split {
+  margin: 0 10px;
+}
+
+article.post .author-info a {
+  color: #4D89FB;
+}
+
+#primary:not(.home) article.post .post-header {
+  margin-bottom: 30px;
+}
+
+#primary:not(.home) article.post .post-header .post-title {
+  font-size: 2em;
+}
+
+hr {
+  border-bottom: 1px solid #eee;
+}
+
+/** hacking **/
+#logo {
+  text-align: right;
+  margin-bottom: 80px;
+}
+
+#logo > a {
+  display: block;
+  height: 70px;
+}
+
+#logo img {
+  width: 70px;
+  border-radius: 50%;
+}
+
+.says {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 30px;
+  color: #666;
+  border-radius: 10px;
+  opacity: 0.7;
+  line-height: 1;
+}
+
+.says a {
+  color: #000;
+}
+
+.says a:hover {
+  text-decoration: underline;
+}
+
+.says > em {
+  font-size: 20px;
+  margin-right: 8px;
+  color: #333;
+}
+
+.gt-initing-text {
+  text-align: center;
+  display: none;
+}
+
+@include max-screen() {
+  .site-header-inner, .content {
+    width: 90%;
+  }
+  #secondary {
+      display: none;
+  }
+  #primary.home {
+      width: 100%;
+  }
+  #primary.home .js-author img {
+    display: none;
+  }
+}
